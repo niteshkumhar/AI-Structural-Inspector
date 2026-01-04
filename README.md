@@ -1,11 +1,16 @@
 # AI Structural Safety Inspector 🏗️
-**Built for the Hack2Skill 'AI for Good' Hackathon**
+**Prototype for Hack2Skill 'AI for Good' Hackathon**
 
-This application provides instant structural safety audits for buildings in remote or disaster-stricken areas. By using **Snowflake Cortex AI**, it analyzes building damage imagery to provide professional-grade engineering assessments.
+## 🌟 The Vision
+Structural safety inspections are often slow and expensive. This project democratizes engineering expertise by providing instant, AI-driven safety audits using only a smartphone camera and the power of the Snowflake Data Cloud.
 
-### 🛠️ Tech Stack
-* **Data Platform:** Snowflake Data Cloud
-* **AI Model:** Llama 3.2 11B (via Snowflake Cortex)
+## ⚙️ Tech Stack
+* **Core Engine:** Snowflake Cortex AI (Llama 3.2 11B Multimodal)
 * **Frontend:** Streamlit in Snowflake (SiS)
-* **Logic:** Python & Snowpark
-* **Database:** Snowflake SQL
+* **Data Processing:** Snowpark for Python
+* **Infrastructure:** AWS (Singapore Region)
+
+## 🚀 Key Features
+* **Vision-to-Report:** Analyzes building damage images for structural risk.
+* **Safety Scoring:** Provides a 1-10 integrity rating.
+* **Automated Logging:** Saves every audit into a centralized Snowflake table for large-scale disaster monitoring.
